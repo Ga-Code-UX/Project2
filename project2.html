@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF - 8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> project2 responsive frontend with javaScript</title>
+    <link rel="stylesheet"  href="project2.css" >
+    <!--icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!--js-->
+    <script src="js/project2.js" defer></script>
+</head> 
+<body>
+    <!--header-->
+    <header id="header">
+        <nav>
+            <div class="navTop">
+                <div class="navItem">
+                    <h1>Nike Shoes</h1>
+                </div>
+                <div class="navItem">
+                    <div class="search">
+                        <input type="text" placeholder="Search" class="search_Input">
+                        <i class='bx bx-search'></i>
+                    </div>
+                </div>
+                <div class="navItem">
+                    <span class="limitedOffer"> Limited Offer!</span>
+                </div>
+            </div>
+            <div class="navBottom">
+                    <a href="#" class="menuItem">AIR FORCE</a>
+                    <a href="#" class="menuItem">AIR JORDAN</a>
+                    <a href="#" class="menuItem">LEBRON</a>
+                    <a href="#" class="menuItem">PG 4</a>
+                    <a href="#" class="menuItem">BLAZER</a>
+            </div>
+        </nav>
+    </header>
+<!--end header-->
+
+<!--section1-->
+    <section>
+        <div class="slider">
+            <div class="sliderWrapper">
+                <div class="sliderItem">
+                    <img src="img/NIKE_AIR_FORCE_1_LOW_MULTI_SWOOSH_GREEN_WHITE-mini.png" alt="" class="sliderImg">
+                    <div class="slider_bg"></div>
+                    <h1 class="slider_title"> NIKE <br>AIR <br>FORCE</h1>
+                    <h2 class="slider_price">$119</h2>
+                    <a href="#product"><button class="buy_button">BUY NOW</button></a>
+                </div>
+
+                <div class="sliderItem">
+                    <img src="img/NIKE_AIR_JORDAN_1_RETRO_MID_BLACK_GYM_RED-mini.png" alt="" class="sliderImg">
+                    <div class="slider_bg"></div>
+                    <h1 class="slider_title"> NIKE <br> AIR <br>JORDAN </h1>
+                    <h2 class="slider_price">$119</h2>
+                    <a href="#product"><button class="buy_button">BUY NOW</button></a>
+                </div>
+
+                <div class="sliderItem">
+                    <img src="img/NIKE_LEBRON_17_LOW_PARTICLE_GREY-mini.png" alt="" class="sliderImg">
+                    <div class="slider_bg"></div>
+                    <h1 class="slider_title"> NIKE<br> LEBRON </h1>
+                    <h2 class="slider_price">$119</h2>
+                    <a href="#product"><button class="buy_button">BUY NOW</button></a>
+                </div>
+
+                <div class="sliderItem">
+                    <img src="img/NIKE_PG_4_DIGI_CAMO_PAUL_GEORGE-mini.png" alt="" class="sliderImg">
+                    <div class="slider_bg"></div>
+                    <h1 class="slider_title"> NIKE<br> PG 4</h1>
+                    <h2 class="slider_price">$119</h2>
+                    <a href="#product"><button class="buy_button">BUY NOW</button></a>
+                </div>
+
+                <div class="sliderItem">
+                    <img src="img/NIKE_BLAZER_LOW_RETRO_BASKETBALL_MANTRA_ORANGEs-mini.png" alt="" class="sliderImg">
+                    <div class="slider_bg"></div>
+                    <h1 class="slider_title"> NIKE <br>BLAZER</h1>
+                    <h2 class="slider_price">$119</h2>
+                    <a href="#product"><button class="buy_button">BUY NOW</button></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+<!--end section1-->
+
+<!--section 2-->
+    <section>
+        <div class="shoes_featured">
+            <div class="feature">
+                <i class="fa-solid fa-truck-fast"></i>
+                <span class="feature_title">FREE SHIPPING</span>
+                <span class="featured_descrition">Free worldwide shippig on all orders.</span>
+            </div>
+
+            <div class="feature">
+                <i class="fa-solid fa-arrow-rotate-left"></i>
+                <span class="feature_title">30 DAYS RETURN</span>
+                <span class="featured_descrition">No question return and easy refund in 14 days.</span>
+            </div>
+
+            <div class="feature">
+                <i class="fa-solid fa-gifts"></i>
+                <span class="feature_title">GIFT CARDS</span>
+                <span class="featured_descrition">Buy gift cards and use coupon codes easily.</span>
+            </div>
+
+            <div class="feature">
+                <i class="fa-solid fa-paper-plane"></i>
+                <span class="feature_title">Contact us</span>
+                <span class="featured_descrition">Keep in touch via email and support system.</span>
+            </div>
+
+        </div>
+    </section>
+<!---end section 2-->
+
+<!--section 3-->
+    <section>
+        <div class="product" id="product" > 
+            <img src="img/NIKE_AIR_JORDAN_1_RETRO_MID_BLACK_GYM_RED-mini.png" alt="" class="product_img">
+            <div class="product_details">
+                <h1 class="product_title">AIR JORDAN</h1>
+                <h2 class="product_price">$170</h2>
+                <p class="product_descrition">Cum labore enim non consequatur dolores aut veniam quia et galisum rerum qui iusto beatae qui sunt internos. Et odit facere non laborum nulla sit enim deleniti. Est blanditiis quaerat ut architecto sint sit fugiat voluptatem et esse repellendus quam ut suscipit repellendus.</p>
+                
+                <div class="colors">
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                </div>
+                
+                <div class="sizes">
+                    <div class="size">42</div>
+                    <div class="size">43</div>
+                    <div class="size">44</div>
+                </div>
+                
+                <button class="product_button">BUY NOW</button>
+            </div>
+            
+            <div class="payment">
+                <h1 class="pay_title">Personal Information</h1>
+                <label>Name and Surname</label>
+                <input type="text" placeholder="Lucia" class="pay_input">
+                <label>Phone Number</label>
+                <input type="text" placeholder="+351 934907890" class="pay_input">
+                <label>Address</label>
+                <input type="text" placeholder="Rua são victor , 43, codigo 4703-400, Braga-PT" class="pay_input">
+                <h1 class="pay_title"> Card Information</h1>
+                <div class="card_icons">
+                    <i class="fa-brands fa-cc-visa"></i>
+                    <i class="fa-brands fa-cc-mastercard"></i>
+                </div>
+                <input type="password" placeholder="Card Number" class="pay_input">
+                <div class="card_info">
+                    <input type="text" placeholder="mm" class="pay_input sm">
+                    <input type="text" placeholder="yyyy" class="pay_input sm">
+                    <input type="text" placeholder="cvv" class="pay_input sm">
+                </div>
+                
+                <button class="pay_button">Checkout</button>
+                <span class="close">X</span>
+            </div>
+        </div>
+    </section>
+<!--end section 3-->
+
+<!--section 4-->
+<section>
+    <div class="gallery">
+        <div class="gallery_items">
+            <h1 class="gallery_title">Be yourself!</h1>
+            <img src="img/adult-1867073_960_720.jpg" alt="" class="gallery_img">
+        </div>
+        <div class="gallery_items">
+            <h1 class="gallery_title">This is the First Day of your Life</h1>
+            <img src="img/man-5952654_960_720.jpg" alt="" class="gallery_img">
+        </div>
+        <div class="gallery_items">
+            <h1 class="gallery_title">Just do it!</h1>
+            <img src="img/nike-5226091_960_720.jpg" alt="" class="gallery_img">
+        </div>   
+    </div>
+</section>
+<!--end section 4-->
+
+<!--section 5-->
+<section>
+    <div class="new_season">
+        <div class="ns_item">
+            <img src="img/jordan-6005991_960_720.jpg" alt="" class="ns_img">
+        </div>
+        <div class="ns_item">
+            <h3 class="ns_item_sm"> Winter New Arrivals</h3>
+            <h1 class="ns_title">New Season</h1>
+            <h1 class="ns_title">New Collection</h1>
+            <a href="#header">
+                <button class="ns_button">Choose Your Style</button>
+            </a>
+        </div>
+        <div class="ns_item">
+            <img src="img/nike-5226087_960_720.jpg" alt="" class="ns_img">
+        </div>
+    </div>
+</section>
+<!--end section 5-->
+
+<!--footer-->
+<footer>
+    <div class="footer_left">
+        <div class="footer_menu">
+            <h1 class="footer_menu_title">About us</h1>
+            <ul class="footer_list">
+                <li class="footer_list_item">Company</li>
+                <li class="footer_list_item">Contact</li>
+                <li class="footer_list_item">Careers</li>
+                <li class="footer_list_item">Stores</li>
+            </ul>
+        </div>
+        <div class="footer_menu">
+            <h1 class="footer_menu_title">Products</h1>
+            <ul class="footer_list">
+                <li class="footer_list_item">Company</li>
+                <li class="footer_list_item">Contact</li>
+                <li class="footer_list_item">Careers</li>
+                <li class="footer_list_item">Stores</li>
+            </ul>
+        </div>
+    
+        <div class="footer_menu">
+            <h1 class="footer_menu_title">Useful Links</h1>
+            <ul class="footer_list">
+                <li class="footer_list_item">Company</li>
+                <li class="footer_list_item">Contact</li>
+                <li class="footer_list_item">Careers</li>
+                <li class="footer_list_item">Stores</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer_right">
+        <div class="footer_right-menu">
+            <h1 class="footer_menu_title"> Susbcribe to our newsletter</h1>
+            <div class="footer_email">
+                <input type="email" placeholder="your@email.com" class="footer_input">
+                <button class="footer_button">Join</button>
+            </div>
+        </div>
+
+        <div class="footeer_right_menu">
+            <h1 class="footer_menu_title">Follow us</h1>
+            <div class="footer_icons_socials">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-square-whatsapp"></i>
+            </div>
+        </div>
+        <div class="footer_right_menu">
+            <span class="copyright">
+                &copy; Developed for GA Code.
+            </span>
+        </div>
+    </div>
+
+</footer>
+<!--end footer-->
+
+
+</body>
+</html>
